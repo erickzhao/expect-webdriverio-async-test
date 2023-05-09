@@ -1,10 +1,9 @@
 diff --git a/node_modules/expect-webdriverio/types/expect-webdriverio.d.ts b/node_modules/expect-webdriverio/types/expect-webdriverio.d.ts
-index e20ad81..fd1781c 100644
+index 6a4c4f9..52aff14 100644
 --- a/node_modules/expect-webdriverio/types/expect-webdriverio.d.ts
 +++ b/node_modules/expect-webdriverio/types/expect-webdriverio.d.ts
-@@ -1,328 +1,328 @@
+@@ -1,327 +1,327 @@
  declare namespace ExpectWebdriverIO {
--    function expect<T = unknown, R extends void | Promise<void> = void | Promise<void>>(actual: T): Matchers<R, T>
 -    function setOptions(options: DefaultOptions): void
 -
 -    interface DefaultOptions {
@@ -326,7 +325,6 @@ index e20ad81..fd1781c 100644
 -        sample?: any
 -        asymmetricMatch?(...args: any[]): boolean
 -    }
-+  function expect<T = unknown>(actual: T): Matchers<T, T>
 +  function setOptions(options: DefaultOptions): void
 +
 +  interface DefaultOptions {

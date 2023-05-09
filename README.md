@@ -10,10 +10,10 @@ A few dependencies were changed manually to resolve all necessary peer dependenc
 
 This was tested on VSCode 1.78.0 and macOS Ventura 13.3.1, with the following npm dependencies:
 
-* expect-webdriverio v4.2.3
+* `expect-webdriverio@3.6.0` (via `@wdio/mocha-framework@7.30.2`)
 * Node.js v16.14.2
-* TypeScript v5.0.2
-* WebDriver.IO v7.31.1 (or latest v7 version, depending on the package)
+* `typescript@5.0.2`
+* `webdriverio@7.31.1`
 
 ## Issue
 
